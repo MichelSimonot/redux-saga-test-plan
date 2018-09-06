@@ -8,6 +8,7 @@ export const call = wrapEffectCreator(effects.call);
 export const cancel = wrapEffectCreator(effects.cancel);
 export const cancelled = wrapEffectCreator(effects.cancelled);
 export const cps = wrapEffectCreator(effects.cps);
+export const delay = wrapEffectCreator(effects.delay);
 export const flush = wrapEffectCreator(effects.flush);
 export const getContext = wrapEffectCreator(effects.getContext);
 export const fork = wrapEffectCreator(effects.fork);
